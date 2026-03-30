@@ -1,4 +1,4 @@
-﻿# OrderBook — L2 Order Book Engine
+﻿# OrderBook - L2 Order Book Engine
 
 > A production-grade Level-2 order book for High-Frequency Trading, written in Rust.  
 > Sub-nanosecond BBO reads. Sub-microsecond updates. Zero heap allocations on the hot path.

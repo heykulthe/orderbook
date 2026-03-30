@@ -101,7 +101,7 @@ fn bench_book_read_latency(c: &mut Criterion) {
 /// side, which directly determines the number of diffs produced per update
 /// message.  Sweeping across depths [5, 10, 20, 50] reveals how the book's
 /// insertion, deletion, and recenter logic scales with the size of each diff
-/// payload — a key consideration for instruments with wide, liquid books.
+/// payload  a key consideration for instruments with wide, liquid books.
 fn bench_book_depth_scaling(c: &mut Criterion) {
     let mut group = c.benchmark_group("book_depth_scaling");
 
