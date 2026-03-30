@@ -1,0 +1,89 @@
+# --- Python ---
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual env
+.venv*/
+venv/
+ENV/
+env/
+env.bak/
+
+# Environment variables
+.env
+.env.*
+
+# Distribution / packaging
+.Python
+*.egg-info/
+*.egg
+/poetry.lock
+dist/
+build/
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+*.ipynb_convert
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+.pytest_cache/
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.ruff_cache/
+.mypy_cache/
+
+# Frameworks (Django / Flask / FastAPI)
+*.log
+local_settings.py
+db.sqlite3
+instance/
+.webassets-cache
+
+# --- Rust ---
+# Build artifacts
+**/target/
+**/*.rs.bk
+# LLVM/coverage
+*.profraw
+*.profdata
+coverage/
+tarpaulin-report/
+# Cargo work dirs
+.cargo/
+# NOTE: on versionne Cargo.lock → ne PAS l’ignorer
+
+# --- IDE / Editors ---
+.vscode/
+.idea/
+*.swp
+*.swo
+.history/
+
+# --- OS files ---
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# --- Logs ---
+*.log
+logs/=
+
+# --- Claude ---
+*.claude
+
+# --- data ---
+*.csv
