@@ -1,13 +1,13 @@
-﻿# OrderBook - L2 Order Book Engine
+﻿# L2 Order Book Engine
 
-> A production-grade Level-2 order book for High-Frequency Trading, written in Rust.  
+> A Level-2 order book for High-Frequency Trading, written in Rust.  
 > Sub-nanosecond BBO reads. Sub-microsecond updates. Zero heap allocations on the hot path.
 
 ---
 
 ## Performance at a Glance
 
-All numbers measured with `Criterion.rs` in `--release --features "no_checksum"` (production mode) on an AMD Ryzen 5 8600G (Zen 4) @ 5.05 GHz.
+All numbers measured with `Criterion.rs` in `--release --features "no_checksum"` on an AMD Ryzen 5 8600G (Zen 4) @ 5.05 GHz.
 
 | Operation                           | Latency             | Notes                                           |
 |-------------------------------------|---------------------|-------------------------------------------------|
